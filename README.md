@@ -13,3 +13,6 @@ Two functions, generate_images_using_openai and generate_images_using_huggingfac
 - In the "Huggingface Diffusers" section, the user can enter a text prompt and click a button to generate an image using Huggingface's Diffusers model.
 
 - The generated images are displayed using st.image, and appropriate captions and success messages are shown to the user.
+
+
+Note: I have modified the code to run model inference for HF diffusers on cpu, so you may have to wait 3-4mins for image to be generated using Diffusers
